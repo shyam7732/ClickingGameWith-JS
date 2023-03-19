@@ -6,6 +6,7 @@ let images = document.querySelectorAll(".screen2 img");
 let selectedImage = "";
 let timerSpan = document.querySelector(".timer span");
 let scoreSpan = document.querySelector(".score span");
+let restart = document.querySelector(".restart");
 let scoreReport;
 
 start.onclick = (event) => {
@@ -35,15 +36,15 @@ function letsPlay() {
             clearInterval(x);
             clearInterval(y);
             alert("Your Score is:- " + scoreReport)
-            screen1.style.display = "flex";
             screen3.style.display = "none";
+            restart.style.display = "flex";
         } else {
             timerSpan.innerHTML = ++timer;
         }
     }, 1000);
 
     //Image Pop Interval
-    let y = setInterval(popPhoto, 500)
+    let y = setInterval(popPhoto, 300)
         
 }
 
