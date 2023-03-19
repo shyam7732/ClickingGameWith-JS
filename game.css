@@ -106,3 +106,36 @@
     width: 40px;
     position: absolute;
 }
+
+
+/***Media Quary***/
+
+
+@media all and (max-width: 522px){
+    .screen2 h1{
+        font-size: 2rem;
+    }
+    .screen2 img{
+        width: 85px;
+        height: 85px;
+    }
+    
+}
+
+@media all and (max-width: 420px){
+    .screen1 h1{
+        font-size: 1.8rem;
+    }
+    .screen1 a{
+        font-size: 15px;
+        padding: .5rem 1.5rem;
+    }
+    .screen2 h1{
+        font-size: 1.6rem;
+    }
+    .screen2 img{
+        width: 70px;
+        height: 70px;
+    }
+    
+}
