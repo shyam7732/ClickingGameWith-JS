@@ -131,11 +131,12 @@
         padding: .5rem 1.5rem;
     }
     .screen2 h1{
-        font-size: 1.6rem;
+        font-size: 22px;
     }
     .screen2 img{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
+        margin: 5px;
     }
     
 }
