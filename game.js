@@ -35,7 +35,7 @@ function letsPlay() {
         if (timer === 30) {
             clearInterval(x);
             clearInterval(y);
-            alert("Your Score is:- " + scoreReport)
+            alert("Your Score is:- " + score)
             screen3.style.display = "none";
             restart.style.display = "flex";
         } else {
@@ -69,11 +69,10 @@ function getRandomTop(){
 }
 
 let score = 0;
-scoreReport = scoreSpan.innerHTML = score;
-    
+   
 function removeImage(element){
     element.remove()
-    scoreReport = scoreSpan.innerHTML = ++score;
+    scoreSpan.innerHTML = ++score;
 }
 
     
